@@ -30,6 +30,11 @@
             "id": "AA0189",
             "action": "None",
             "justification": "Unknown Application Area property."
+        },
+        {
+            "id": "AA0073",
+            "action": "None",
+            "justification": "Temporary 'buffer' varaibles wont get temp prefix"
         }
     ]
 }
