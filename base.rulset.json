@@ -1,40 +1,60 @@
 {
-    "name": "ABC Group base ruleset",
+    "name": "Streichers base ruleset",
     "rules": [
-        {
-            "id": "AA0072",
-            "action": "None",
-            "justification": "Variable naming rule is pointless"
+          {
+            "id": "AA0198",
+            "action": "Error",
+            "justification": "No local and globals named the same"           
         },
         {
             "id": "AA0215",
             "action": "None",
-            "justification": "File naming rule is pointless"
+            "justification": "Allow non-AL files in workspace"
         },
         {
-            "id": "LC0054",
+            "id": "AS0015",
             "action": "None",
-            "justification": "Interface name must start with the capital 'I' without any spaces following it. Don't agree with this rule"
+            "justification": "Translation array"           
         },
         {
-            "id": "PTE0012",
+            "id": "AS0051",
             "action": "None",
-            "justification": "InternalsVisibleTo should not be used as a security feature."
-        },
+            "justification": "Manifest properties"
+        },        
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "URL must be filled"
+        },        
         {
             "id": "AS0081",
             "action": "None",
             "justification": "InternalsVisibleTo should not be used as a security feature."
         },
         {
-            "id": "AA0189",
+            "id": "AS0084",
             "action": "None",
-            "justification": "Unknown Application Area property."
+            "justification": "Number range"           
         },
         {
-            "id": "AA0073",
+            "id": "AS0092",
             "action": "None",
-            "justification": "Temporary 'buffer' varaibles wont get temp prefix"
-        }
+            "justification": "Azure application insights"           
+        },
+        {
+            "id": "LC0010",
+            "action": "None",
+            "justification": "Cyclomatic complexity. Need to re-enable when I have time to refactor"           
+        },
+        {
+            "id": "LC0036",
+            "action": "None",
+            "justification": "Tooltip begin with Specifies- boring"           
+        },
+        {
+            "id": "LC0068",
+            "action": "None",
+            "justification": "Permissions on page extensions. Need to re-enable when I have time to refactor"           
+        }        
     ]
 }
