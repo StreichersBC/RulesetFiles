@@ -12,6 +12,11 @@
             "justification": "Allow non-AL files in workspace"
         },
         {
+            "id": "AA0248",
+            "action": "None",
+            "justification": "Don't require this on everything"
+        },        
+        {
             "id": "AS0015",
             "action": "None",
             "justification": "Translation array"           
